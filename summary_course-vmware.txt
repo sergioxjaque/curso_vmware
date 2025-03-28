@@ -47,10 +47,99 @@ Permite actualizar todos los entornos.
 -----------------------------------------------
 CLASE 4.6		VMWARE TOOLS	
 -----------------------------------------------
-Drivers para mejorar el rendimiento de la VM
+Conjunto de utilidades para mejorar el rendimiento de la VM
+- reemplazan drivers genericos
+- Funcionabilidades:
+	- Sincronizacion de hora y fecha
+	- Controladores de dipositivos
+	- Automatizar procesos
+	- mejora el rendimiento, del sistema, graficos, raton
+	- Carpetas compartidas
+	- copiar y pegar desde el portapapeles
+	- Servicio de heartbeat
+	- Apagar/Reiniciar la vm sin entrar en la consola
+
+
+-----------------------------------------------
+CLASE 4.7  CREAR VM en formato OVF/OVA Virtual Appliance Format
+-----------------------------------------------
+- Desde el martket place podemos obtener muchas appliances:
+
+
+-----------------------------------------------
+CLASE 5.2  Vcenter Server
+-----------------------------------------------
+Es un server que permite administrar toda la infraestructura VMWware
+desde un server virtual linux.
+Proporciona caracteristicas avanzadas como:
+	- DRS
+	- High Availability / HA
+	- Full Tolerance
+	- Vmotion
+	- Storage Vmotion
+
+Vsphere Client --> Permite administrar
+Posee una DB Vcenter Server
+
+
+-----------------------------------------------
+CLASE 5.3  Servicios prestados por el vcenter:
+-----------------------------------------------
+Vcenter Server
+Web client
+Update Manager
+VMware Vsphere  Auto deploy
+VMware Vsphere  ESXI dump collector
+VMware Vsphere  Syslog Collector
+
+-----------------------------------------------
+CLASE 5.4  Arguitectura Vcenter Appliance  (VM Linux)
+-----------------------------------------------
+Actualmente esta conformado por:
+	- PSC
+	- Vcenter Server
+	
+Esta solucion esta formada por:
+	- Platform Services Controller
+	- Vcenter server Appliance
+	- Vcenter Server Embebed Database  (componente mas critico)
+
+
+-----------------------------------------------
+CLASE 5.5  Platform Services Controller
+-----------------------------------------------
+Incluye servicios como:
+	- Vcenter Single Sing-on
+	- VMWARE License Server
+	- Lookup Service
+	- Vmware Certificate Authority
+	- Certificate Store
+	- VMware Directory Services
+
+
+-----------------------------------------------
+CLASE 5.6
+-----------------------------------------------
 
 
 
+
+-----------------------------------------------
+CLASE 5.3  
+-----------------------------------------------
+
+
+
+
+
+-----------------------------------------------
+CLASE 5.3  
+-----------------------------------------------
+
+
+-----------------------------------------------
+CLASE 4.7  CREAR VM en formato OVF/OVA Virtual Appliance Format
+-----------------------------------------------
 
 
 
